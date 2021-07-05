@@ -57,6 +57,8 @@ if __name__ == "__main__":
         # if you want to try your own mp4, change this filename
         cap = cv2.VideoCapture("example_input.mp4")
         
+    print("press q to quit")
+        
     while(True):
         ret, frame = cap.read()
 
